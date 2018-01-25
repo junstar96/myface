@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  main.cpp
+c:\users\이준성\desktop\새 폴더\study file\myface\maze_make\프로젝트 실행\main.cpp(10): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Make_Maze.cpp
+  dice.cpp
+  코드를 생성하고 있습니다...
+  프로젝트 실행.vcxproj -> C:\Users\이준성\Desktop\새 폴더\study file\myface\maze_make\Debug\프로젝트 실행.exe

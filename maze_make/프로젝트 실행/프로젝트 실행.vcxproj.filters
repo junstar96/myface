@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\class_cpp">
+      <UniqueIdentifier>{6b77a28f-149c-49b9-9977-134d35a1b808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\class_h">
+      <UniqueIdentifier>{f8efc089-b4aa-4ee1-a196-334e43fbeb85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\fundametal">
+      <UniqueIdentifier>{d33b92ec-56d0-4378-80f6-2ee095610849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\another">
+      <UniqueIdentifier>{e51911ff-8df1-452c-88f2-564165db8674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\another">
+      <UniqueIdentifier>{69fb1aa7-cd2d-4204-9b23-bb12472e33e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\fundamental">
+      <UniqueIdentifier>{227589e3-68df-4ba6-975a-30eb5071f1da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dice.h">
+      <Filter>헤더 파일\class_h</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\fundametal</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\fundametal</Filter>
+    </ClInclude>
+    <ClInclude Include="Make_Maze.h">
+      <Filter>헤더 파일\another</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dice.cpp">
+      <Filter>소스 파일\class_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="Make_Maze.cpp">
+      <Filter>소스 파일\another</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
